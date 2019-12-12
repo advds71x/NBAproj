@@ -1,0 +1,81 @@
+I"¥	<!-- Main -->
+<div id="main">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h2>Year-Effect</h2>
+		</header>
+		<p>Are multiple season data comparable?</p>
+	</div>
+</section>
+
+
+
+
+<section id="two" class="spotlights">
+	<section>
+		<a href="generic.html" class="image">
+			<img src="assets/images/team_pc_plot.png" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Team PC Plot</h3>
+				</header>
+				<p>No significant season patterns.</p>
+			</div>
+		</div>
+	</section>
+
+  <section>
+    <a href="generic.html" class="image">
+      <img src="assets/images/year_dist.png" alt="" data-position="top center" />
+    </a>
+    <div class="content">
+      <div class="inner">
+        <header class="major">
+          <h3>Season Distance Plot</h3>
+        </header>
+        <p>Neighboring years tend to be closer.</p>
+      </div>
+    </div>
+  </section>
+	<section>
+		<a href="generic.html" class="image">
+			<img src="assets/images/team_cluster_plot.png" alt="" data-position="25% 25%" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Team Cluster Plot</h3>
+				</header>
+				<p>We group teams from multiple seasons into 5 clusters based on k-means algorithm.
+        Green: most competitive teams, e.g. GSW 2015-16.
+        Brown: least competitive teams, e.g. PHI 2015-16.</p>
+			</div>
+		</div>
+	</section>
+</section>
+
+<!-- Three -->
+<section id="three">
+	<div class="inner">
+		<header class="major">
+			<h2>Integrative Prediction Using Multiple Season Data</h2>
+		</header>
+		<p> Suppose we have multiple data sources $$\mathcal{D}_{i} = \{(x_{i1},y_{i1})...(x_{iN},y_{iN}) \} \ \ \text{for} \ i=1,...,m$$ We train $m$ separate classifiers $g_i: x_i \to y_i$, here $g$ returns the probability instead of binary outcome. When given a new sample $x$ from season $k$, we perform the weighted prediction:
+    $$ \hat{p} = \sum_{i=1}^m w_i(k) g_i(x)
+    $$
+    The weight is determined by the distance between two seasons. For season $i$ and season $j$, define the distance $d(i,j)$ from the above dimension reduction procedures, then the weight is calculated as
+    $$ w_i(k) = \frac{1/d(i,k)}{\sum_{i=1}^m 1/d(i,k)}
+    $$</p>
+    <header class="major">
+			<h3>Wrap-up Function</h3>
+		</header>
+    <code>win_prob_prediction(train_year = c(2016:2019),test_year = 2020,year_effect = 1)</code>
+	</div>
+</section>
+</div>
+:ET

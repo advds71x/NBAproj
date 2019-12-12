@@ -1,0 +1,27 @@
+I"?<p>The performance of a team could be captured by both the team-level and player-level statistics.</p>
+<ul>
+  <li>Team-Level
+    <ul>
+      <li>number of W and L, W/L percentage, conference rank</li>
+      <li>team total/average points, oppponent total/average points</li>
+      <li>other secondary statistics: total rebounds, assists, blocks, turnovers, personal fouls</li>
+    </ul>
+  </li>
+  <li>Player-Level
+    <ul>
+      <li>highest win share value in the team</li>
+      <li>number of league top 100 win share players in the team</li>
+      <li>severe injuries</li>
+      <li>team transfer</li>
+    </ul>
+  </li>
+  <li>Specific Effect
+    <ul>
+      <li>home-court advantage</li>
+      <li>western-eastern effect</li>
+      <li>history records between teams</li>
+      <li>winning streak effect</li>
+    </ul>
+  </li>
+</ul>
+:ET

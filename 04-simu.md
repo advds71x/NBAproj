@@ -1,0 +1,34 @@
+---
+title: Simulation
+layout: landing
+description:
+image: assets/images/simu.png
+nav-menu: true
+permalink: /simu
+---
+
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h2>Pseudocode</h2>
+		</header>
+		<p></p>
+	</div>
+</section>
+<center>
+<span class="image"><img src="assets/images/simu_algo.png" alt="" width = "1000" /></span>
+</center>
+
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h2>ShinyApp</h2>
+		</header>
+		<p></p>
+	</div>
+</section>
+
+<center>
+<iframe id="example1" src="https://kate-yueyi-li.shinyapps.io/nba_simulation_shiny/" style="border: none; width: 1000px; height: 800px" frameborder="0">
+</iframe>
+</center>

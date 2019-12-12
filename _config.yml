@@ -3,8 +3,8 @@ title: NBA Data Analysis Project
 subtitle: by Dream Big
 #email: youremailaddress@gmail.com
 description: Advanced Data Science Final Project Website
-baseurl: "/NBAproj" # the subpath of your site, e.g. /blog
-url: "https://advds71x.github.io"  # the base hostname & protocol for your site
+baseurl:  "/NBAproj" # the subpath of your site, e.g. /blog
+url:  "https://advds71x.github.io"  # the base hostname & protocol for your site
 author:
 street_address: 615 N Wolfe St
 city: Baltimore
@@ -15,7 +15,7 @@ country: United States of America
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 9
 
 # social settings
 500px_url:
