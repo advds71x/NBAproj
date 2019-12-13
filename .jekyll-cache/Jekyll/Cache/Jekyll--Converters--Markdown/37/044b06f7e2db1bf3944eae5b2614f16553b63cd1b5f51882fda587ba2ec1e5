@@ -1,12 +1,4 @@
----
-layout: landing
-title: Statistical Models II
-description: Statistical Models II
-image: assets/images/team_cluster_plot.png
-nav-menu: true
-permalink: /model_int
----
-<!-- Main -->
+I"Á<!-- Main -->
 <div id="main">
 
 <!-- One -->
@@ -32,7 +24,7 @@ permalink: /model_int
 				<header class="major">
 					<h3>Team PC Plot</h3>
 				</header>
-				<p>To explore whether clustering effects exist, we created the function <code>team_pc_plot()</code>, which first uses principal component analysis (PCA) to reduce our higher dimensional data with a larger set of variables to a smaller set of just two principal components (PCs) that still manages to retain most of the information in the original data. The new coordinate system and transformed data defined in terms of the two PCs are shown. Concentration ellipses are then used to encircle data of all teams from the same season. From the graph, we can see that data for separate years are closely packed together and there is no clear pattern of a year-effect.</p>
+				<p>To explore whether clustering effects exist, we created the function `team_pc_plot()`, which first uses principal component analysis (PCA) to reduce our higher dimensional data with a larger set of variables to a smaller set of just two principal components (PCs) that still manages to retain most of the information in the original data. The new coordinate system and transformed data defined in terms of the two PCs are shown. Concentration ellipses are then used to encircle data of all teams from the same season. From the graph, we can see that data for separate years are closely packed together and there is no clear pattern of a year-effect.</p>
 			</div>
 		</div>
 	</section>
@@ -59,7 +51,7 @@ permalink: /model_int
 				<header class="major">
 					<h3>Team Cluster Plot</h3>
 				</header>
-				<p>We created another function <code>team_cluster_plot()</code> that uses K-means clustering to group teams from multiple seasons into 5 clusters. The choice of 5 was based on the fact that we have data from 5 NBA seasons. We see that the algorithm results in clusters where observations from the same season are not necessarily grouped together in the same cluster. Instead, it seems that teams are clustered together based on how strong they are. For example, teams in the olive cluster are among the most competitive teams (e.g. GSW 2015-16), while teams in the blue cluster are among the least competitive teams (e.g. PHI 2015-16). Thus, again, it seems that season/year patterns are not apparent.</p>
+				<p>We created another function team_cluster_plot() that uses K-means clustering to group teams from multiple seasons into 5 clusters. The choice of 5 was based on the fact that we have data from 5 NBA seasons. We see that the algorithm results in clusters where observations from the same season are not necessarily grouped together in the same cluster. Instead, it seems that teams are clustered together based on how strong they are. For example, teams in the olive cluster are among the most competitive teams (e.g. GSW 2015-16), while teams in the blue cluster are among the least competitive teams (e.g. PHI 2015-16). Thus, again, it seems that season/year patterns are not apparent.</p>
 			</div>
 		</div>
 	</section>
@@ -84,3 +76,4 @@ permalink: /model_int
 	</div>
 </section>
 </div>
+:ET

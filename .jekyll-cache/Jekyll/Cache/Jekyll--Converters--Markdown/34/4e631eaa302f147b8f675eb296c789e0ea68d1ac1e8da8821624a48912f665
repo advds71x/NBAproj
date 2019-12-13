@@ -1,4 +1,4 @@
-I"0<h2 id="why-not-machine-learning-models">Why Not Machine Learning Models</h2>
+I"X<h2 id="why-not-machine-learning-models">Why Not Machine Learning Models</h2>
 <ul>
   <li>Better Interpretation: infernce and prediction</li>
   <li>Prediction Accuracy: achieve similar performance compared to tree-based ML models</li>
@@ -12,7 +12,9 @@
 
 <h2 id="model-formulation">Model Formulation</h2>
 
-<script type="math/tex; mode=display">logit[Pr(i \succ j \ \text{in game} \ k)] = \lambda_i - \lambda_j + \delta \cdot I(i \in adv)+ \gamma^{\top} z_{ij}</script>
+<script type="math/tex; mode=display">logit[Pr(i \succ j \ \text{in game} \ k)] = (\lambda_i - \lambda_j)^{\top} \beta + \delta \cdot I(i \in adv)+ \gamma^{\top} z_{ij}</script>
+
+<p>where $\lambda_i$ and $\lambda_j$ are the team performance vectors defined based on feature engineering. $I(I \in adv)$ is the indicator for home-court advantage, and $z_{ij}$ are some potential effects not included in the team performance, such as western-eastern effect.</p>
 
 <h2 id="evaluation-metric">Evaluation Metric</h2>
 

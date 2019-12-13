@@ -15,8 +15,10 @@ permalink: /model
 
 ## Model Formulation
 
-$$ logit[Pr(i \succ j \ \text{in game} \ k)] = \lambda_i - \lambda_j + \delta \cdot I(i \in adv)+ \gamma^{\top} z_{ij}
+$$ logit[Pr(i \succ j \ \text{in game} \ k)] = (\lambda_i - \lambda_j)^{\top} \beta + \delta \cdot I(i \in adv)+ \gamma^{\top} z_{ij}
 $$
+
+where $\lambda_i$ and $\lambda_j$ are the team performance vectors defined based on feature engineering. $I(I \in adv)$ is the indicator for home-court advantage, and $z_{ij}$ are some potential effects not included in the team performance, such as western-eastern effect.  
 
 ## Evaluation Metric
 

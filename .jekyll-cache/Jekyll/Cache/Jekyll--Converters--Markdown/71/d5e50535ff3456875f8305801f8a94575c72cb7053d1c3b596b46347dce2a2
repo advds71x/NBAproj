@@ -1,11 +1,4 @@
----
-layout: page
-title: Exploratory Data Analysis
-nav-menu: true
-permalink: /EDA
----
-
-<!-- Main -->
+I"Ð<!-- Main -->
 <div id="main" class="alt">
 
 <!-- One -->
@@ -63,3 +56,5 @@ permalink: /EDA
 		<span class="image fit"><img src="assets/images/player_ws_plot.png" alt="" /></span>
 	</div>
 </div>
+</div></div></div></section></div>
+:ET

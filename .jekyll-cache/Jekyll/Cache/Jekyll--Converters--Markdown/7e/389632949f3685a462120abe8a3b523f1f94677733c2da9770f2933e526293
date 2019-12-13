@@ -1,12 +1,4 @@
----
-layout: landing
-title: Statistical Models II
-description: Statistical Models II
-image: assets/images/team_cluster_plot.png
-nav-menu: true
-permalink: /model_int
----
-<!-- Main -->
+I"Ù<!-- Main -->
 <div id="main">
 
 <!-- One -->
@@ -84,3 +76,4 @@ permalink: /model_int
 	</div>
 </section>
 </div>
+:ET

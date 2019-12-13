@@ -10,13 +10,11 @@ permalink: /codedoc
 - [Compiled HTML link](https://advds71x.github.io/nba_data_analysis/description)
 
 ### ./data
-- game_stats.csv
 - game_stats_all.csv
+- team_stats_all.csv
 - post_62_games_pred.rds
 - pre_20_games.rds
-- team_stats.csv
-- team_stats_all.csv
-- test_set_pred.rds
+
 
 ### ./nba_simulation_shiny
 - ShinyApp source code
