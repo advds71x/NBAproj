@@ -1,8 +1,8 @@
 # site settings
-title: NBA Data Analysis Project
+title: Advanced Data Science Final Project
 subtitle: by Dream Big
 #email: youremailaddress@gmail.com
-description: Advanced Data Science Final Project Website
+description: Predicting NBA Standings - Who Will Make the 2019-2020 NBA Playoffs in the Western Conference? #Advanced Data Science Final Project Website
 baseurl:  "/NBAproj" # the subpath of your site, e.g. /blog
 url:  "https://advds71x.github.io"  # the base hostname & protocol for your site
 author:

@@ -1,11 +1,4 @@
----
-layout: page
-title: Exploratory Data Analysis
-nav-menu: true
-permalink: /EDA
----
-
-<!-- Main -->
+I"›<!-- Main -->
 <div id="main" class="alt">
 
 <!-- One -->
@@ -29,12 +22,12 @@ permalink: /EDA
 	<div class="4u 12u$(small)">
 		<h3>Team-Level: Season Rank vs First 20 Games Rank</h3>
 		<span class="image fit"><img src="assets/images/team_rank_plot.png" alt="" /></span>
-		<p>We next explored how the team standings after 20 regular games compared to the final standings at the end of the regular season. Many teams that performed well in the beginning of the regular season continued to perform well throughout the season (e.g. GSW & DEN), while some teams that were not faring well earlier on finished the season strong (e.g. HOU & UTA), and still other teams that were in the top 8 after 20 regular season games did not make it to the playoffs in the end (e.g. MEM & LAL). </p>
+		<p>We next explored how the team standings after 20 regular games compared to the final standings at the end of the regular season. Many teams that performed well in the beginning of the regular season continued to perform well throughout the season (e.g. GSW &amp; DEN), while some teams that were not faring well earlier on finished the season strong (e.g. HOU &amp; UTA), and still other teams that were in the top 8 after 20 regular season games did not make it to the playoffs in the end (e.g. MEM &amp; LAL). </p>
 	</div>
 	<div class="4u$ 12u$(small)">
 		<h3>Team-Level: Season Win vs First 20 Games Win</h3>
 		<span class="image fit"><img src="assets/images/team_win_plot.png" alt="" /></span>
-		<p>The line shows the expected number of regular season wins if teams were to maintain the same first-20-game-winning-percentage throughout the regular season. Some teams had a consistent performance throughout the season (e.g. MIN & OKC), while other teams had better (e.g. HOU) or worse (e.g. MEM) performance in the remaining 62 games. </p>
+		<p>The line shows the expected number of regular season wins if teams were to maintain the same first-20-game-winning-percentage throughout the regular season. Some teams had a consistent performance throughout the season (e.g. MIN &amp; OKC), while other teams had better (e.g. HOU) or worse (e.g. MEM) performance in the remaining 62 games. </p>
 	</div>
 </div>
 	<!-- Break -->
@@ -42,7 +35,7 @@ permalink: /EDA
 	<div class="6u 12u$(small)">
 		<h3>Specific Effect: Home-Court Advantage</h3>
 		<span class="image fit"><img src="assets/images/home_away.png" alt="" /></span>
-		<p> We examined home and away records of teams and could see that most teams have a better record playing at home with a few exceptions (i.e. CHI & MIA). </p>
+		<p> We examined home and away records of teams and could see that most teams have a better record playing at home with a few exceptions (i.e. CHI &amp; MIA). </p>
 	</div>
 	<div class="6u$ 12u$(small)">
 		<h3>Specific Effect: Western-Eastern Effect</h3>
@@ -73,3 +66,5 @@ permalink: /EDA
 		<p> We next examine how playersâ€™ win shares vary over NBA seasons. We identify the 20 players in the league who have had among the highest single-season win shares during the 2014-15 to 2018-19 season timeframe, and examine how the win shares of these players varied over those five seasons. We see that the win shares of these top players are fairly consistent over seasons. </p>
 	</div>
 </div>
+</div></div></div></section></div>
+:ET

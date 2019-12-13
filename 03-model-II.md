@@ -24,7 +24,7 @@ permalink: /model_int
 
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
+		<a class="image">
 			<img src="assets/images/team_pc_plot.png" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -38,7 +38,7 @@ permalink: /model_int
 	</section>
 
   <section>
-    <a href="generic.html" class="image">
+    <a class="image">
       <img src="assets/images/year_dist.png" alt="" data-position="top center" />
     </a>
     <div class="content">
@@ -51,7 +51,7 @@ permalink: /model_int
     </div>
   </section>
 	<section>
-		<a href="generic.html" class="image">
+		<a class="image">
 			<img src="assets/images/team_cluster_plot.png" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
