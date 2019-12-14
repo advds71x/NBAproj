@@ -1,8 +1,8 @@
-I"=<h2 id="rmarkdown-and-html-files">Rmarkdown and HTML Files</h2>
+I"3<h2 id="rmarkdown-and-html-files">Rmarkdown and HTML Files</h2>
 <ul>
-  <li>Rmarkdown file: description.Rmd</li>
+  <li>Rmarkdown file: report.Rmd</li>
   <li><a href="https://github.com/advds71x/nba_data_analysis">Github Repo link</a></li>
-  <li><a href="https://advds71x.github.io/nba_data_analysis/description">Compiled HTML link</a></li>
+  <li><a href="https://advds71x.github.io/nba_data_analysis/report">Compiled HTML link</a></li>
 </ul>
 
 <h3 id="data">./data</h3>

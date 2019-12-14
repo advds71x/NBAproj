@@ -7,7 +7,7 @@ nav-menu: true
 permalink: /model
 ---
 ## Why Not Machine Learning Models
-- Better Interpretation: infernce and prediction
+- Better Interpretation: inference and prediction
 - Prediction Accuracy: achieve similar performance compared to tree-based ML models
 - Time Saving
   - save training time

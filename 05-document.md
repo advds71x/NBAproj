@@ -5,9 +5,9 @@ nav-menu: true
 permalink: /codedoc
 ---
 ## Rmarkdown and HTML Files
-- Rmarkdown file: description.Rmd
+- Rmarkdown file: report.Rmd
 - [Github Repo link](https://github.com/advds71x/nba_data_analysis)
-- [Compiled HTML link](https://advds71x.github.io/nba_data_analysis/description)
+- [Compiled HTML link](https://advds71x.github.io/nba_data_analysis/report)
 
 ### ./data
 - game_stats_all.csv
